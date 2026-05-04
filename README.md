@@ -144,29 +144,6 @@ jupyter notebook code.ipynb
 jupyter lab code.ipynb
 ```
 
-### Recompiling the Paper
-
-**Windows:**
-```bash
-compile.bat
-```
-
-**Linux/Mac:**
-```bash
-bash compile.sh
-```
-
-**Manual compilation:**
-```bash
-pdflatex main.latex
-bibtex main
-pdflatex main.latex
-pdflatex main.latex
-```
-
-Outputs: `main.pdf`
-
----
 
 ## Data Files Guide
 
