@@ -2,8 +2,6 @@
 
 ## An Empirical Study of LLM-as-a-Judge for English-Hindi Machine Translation
 
-**Course:** Evaluation Methods in NLP, 2026
-
 ---
 
 ## Overview
