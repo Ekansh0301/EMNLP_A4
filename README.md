@@ -1,6 +1,6 @@
 # When Does the Machine Judge Fail?
 
-## An Empirical Study of LLM-as-a-Judge for English–Hindi Machine Translation
+## An Empirical Study of LLM-as-a-Judge for English-Hindi Machine Translation
 
 **Course:** Evaluation Methods in NLP, 2026
 
@@ -13,9 +13,9 @@ This project investigates when Large Language Models are reliable evaluators for
 ### Key Findings
 
 - **Rubric-based evaluation** achieves highest human-judge correlation (Spearman r=0.460, p<0.001)
-- **Judge is robust to adversarial attacks** — not fooled by fluency-only or meaning-shift manipulations
+- **Judge is robust to adversarial attacks** - not fooled by fluency-only or meaning-shift manipulations
 - **Chain-of-thought prompting degrades** judgment quality (contrary to general-purpose LLM findings)
-- **Surface quality bias** (10%) is dominant failure mode — penalizing correct-but-rough translations
+- **Surface quality bias** (10%) is dominant failure mode - penalizing correct-but-rough translations
 - **Human disagreement is high** (Cohen's kappa=0.132) on challenging inputs, limiting gold standard reliability
 
 ---
@@ -23,8 +23,8 @@ This project investigates when Large Language Models are reliable evaluators for
 ## What's Included
 
 ### Core Files
-- **Paper.pdf** — Complete 6–8 page research report with full methodology and results
-- **code.ipynb** — Reproducible Jupyter notebook with all analysis and plot generation
+- **Paper.pdf** - Complete 6-8 page research report with full methodology and results
+- **code.ipynb** - Reproducible Jupyter notebook with all analysis and plot generation
 
 ### Directory Structure
 ```
@@ -49,16 +49,8 @@ plots/
 
 ---
 
-## Quick Start
 
-### View the Paper
-```bash
-open Paper.pdf          # macOS
-xdg-open Paper.pdf      # Linux
-start Paper.pdf         # Windows
-```
-
-### Run the Analysis
+## Run the Analysis
 ```bash
 # Install dependencies
 pip install pandas numpy scipy matplotlib seaborn jupyter
@@ -78,8 +70,8 @@ jupyter notebook code.ipynb
 - **Challenge Types:** Ambiguous, hallucination-prone, noisy inputs, negation/quantifier traps, long/complex sentences
 
 ### Evaluation Methods
-1. **Human Gold Standard** — 3 native Hindi speakers scored fluency, adequacy, and overall preference
-2. **LLM Judge (Gemini 2.0 Flash Lite)** — Three evaluation protocols:
+1. **Human Gold Standard** - 3 native Hindi speakers scored fluency, adequacy, and overall preference
+2. **LLM Judge (Gemini 2.0 Flash Lite)** - Three evaluation protocols:
    - Direct scoring (1-5 scale)
    - Pairwise A/B comparison (with position bias check via order swap)
    - Rubric-based evaluation (4 criteria: adequacy, fluency, terminology, style)
@@ -105,12 +97,12 @@ jupyter notebook code.ipynb
 | BLEU | 0.153 | 0.128 | Not significant |
 
 ### Failure Mode Distribution
-- **Aligned** (55%) — Agrees with human judgment
-- **Mild disagreement** (26%) — Minor discrepancies
-- **Surface quality bias** (10%) — Penalizes rough-but-correct output
-- **Quantifier blindness** (4%) — Misses subtle scope changes
-- **Position sensitivity** (4%) — Order-dependent judgments
-- **Fluency over-trusting** (2%) — Extremely rare
+- **Aligned** (55%) - Agrees with human judgment
+- **Mild disagreement** (26%) - Minor discrepancies
+- **Surface quality bias** (10%) - Penalizes rough-but-correct output
+- **Quantifier blindness** (4%) - Misses subtle scope changes
+- **Position sensitivity** (4%) - Order-dependent judgments
+- **Fluency over-trusting** (2%) - Extremely rare
 
 ### Adversarial Test Results
 All 12 adversarial examples were correctly rejected:
