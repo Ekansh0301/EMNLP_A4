@@ -1,0 +1,13 @@
+adv_id,type,flaw,score_adversarial,score_reference,judge_fooled
+adv_01,fluent_wrong,"'leave'→'go to': direction inverted, fluent Hindi",4,5,False
+adv_02,fluent_wrong,"increased→decreased: factual inversion, perfectly fluent",1,5,False
+adv_03,fluent_wrong,"received→gave: subject-object reversal, fluent",2,5,False
+adv_04,fluent_wrong,"before→after: temporal inversion, fluent",1,5,False
+adv_05,correct_but_poor,"Correct meaning, heavy Anglicization and unnatural structure",2,5,False
+adv_06,correct_but_poor,"Correct meaning, unnatural passive + English borrowings",2,5,False
+adv_07,correct_but_poor,"Wrong plural, redundant postposition, circumlocution — meaning survives",1,5,False
+adv_08,correct_but_poor,"Wrong case markers, scrambled word order, meaning intact",1,5,False
+adv_09,meaning_shift,'almost all'→'all': quantifier dropped,4,5,False
+adv_10,meaning_shift,after→before: temporal inversion with medical stakes,1,5,False
+adv_11,meaning_shift,Modal 'could have' dropped: uncertainty→certainty,2,5,False
+adv_12,meaning_shift,rarely→sometimes: frequency quantifier shifted,2,5,False

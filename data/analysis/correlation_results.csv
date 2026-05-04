@@ -1,0 +1,6 @@
+comparison,n,spearman_r,spearman_p,kendall_tau,kendall_p
+Direct vs Human,100,0.4398,0.0,0.3672,0.0
+Rubric Overall vs Human,100,0.4602,0.0,0.3558,0.0
+Rubric Fluency vs Human Fluency,100,0.3948,0.0,0.3238,0.0001
+Rubric Adequacy vs Human Adequacy,100,0.4358,0.0,0.3813,0.0
+BLEU vs Human (baseline),100,0.1533,0.1279,0.1177,0.0966

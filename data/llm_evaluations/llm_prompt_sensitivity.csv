@@ -1,0 +1,442 @@
+example_id,challenge_category,variant,score,raw
+ex_001,ambiguous,standard_with_ref,4,4
+ex_002,ambiguous,standard_with_ref,2,2
+ex_003,ambiguous,standard_with_ref,4,4
+ex_004,ambiguous,standard_with_ref,3,3
+ex_005,ambiguous,standard_with_ref,4,4
+ex_006,ambiguous,standard_with_ref,4,4
+ex_007,ambiguous,standard_with_ref,2,2
+ex_008,ambiguous,standard_with_ref,4,4
+ex_009,ambiguous,standard_with_ref,2,2
+ex_010,ambiguous,standard_with_ref,4,4
+ex_011,hallucination_prone,standard_with_ref,2,2
+ex_012,hallucination_prone,standard_with_ref,2,2
+ex_013,hallucination_prone,standard_with_ref,2,2
+ex_014,hallucination_prone,standard_with_ref,2,2
+ex_015,hallucination_prone,standard_with_ref,3,3
+ex_016,hallucination_prone,standard_with_ref,2,2
+ex_017,hallucination_prone,standard_with_ref,5,5
+ex_018,hallucination_prone,standard_with_ref,4,4
+ex_019,hallucination_prone,standard_with_ref,5,5
+ex_020,hallucination_prone,standard_with_ref,5,5
+ex_021,noisy_input,standard_with_ref,4,4
+ex_022,noisy_input,standard_with_ref,4,4
+ex_023,noisy_input,standard_with_ref,2,2
+ex_024,noisy_input,standard_with_ref,2,2
+ex_025,noisy_input,standard_with_ref,5,5
+ex_026,noisy_input,standard_with_ref,1,1
+ex_027,noisy_input,standard_with_ref,3,3
+ex_028,noisy_input,standard_with_ref,4,4
+ex_029,noisy_input,standard_with_ref,4,4
+ex_030,noisy_input,standard_with_ref,1,1
+ex_031,negation_quantifier,standard_with_ref,5,5
+ex_032,negation_quantifier,standard_with_ref,1,1
+ex_033,negation_quantifier,standard_with_ref,1,1
+ex_034,negation_quantifier,standard_with_ref,5,5
+ex_035,negation_quantifier,standard_with_ref,4,4
+ex_036,negation_quantifier,standard_with_ref,4,4
+ex_037,negation_quantifier,standard_with_ref,4,4
+ex_038,negation_quantifier,standard_with_ref,2,2
+ex_039,negation_quantifier,standard_with_ref,5,5
+ex_040,negation_quantifier,standard_with_ref,2,2
+ex_041,long_complex,standard_with_ref,4,4
+ex_042,long_complex,standard_with_ref,4,4
+ex_043,long_complex,standard_with_ref,3,3
+ex_044,long_complex,standard_with_ref,4,4
+ex_045,long_complex,standard_with_ref,3,3
+ex_046,long_complex,standard_with_ref,4,4
+ex_047,long_complex,standard_with_ref,2,2
+ex_048,long_complex,standard_with_ref,2,2
+ex_049,long_complex,standard_with_ref,3,3
+ex_050,long_complex,standard_with_ref,3,3
+ex_001,ambiguous,no_reference,4,4
+ex_002,ambiguous,no_reference,3,3
+ex_003,ambiguous,no_reference,4,4
+ex_004,ambiguous,no_reference,3,3
+ex_005,ambiguous,no_reference,5,5
+ex_006,ambiguous,no_reference,5,5
+ex_007,ambiguous,no_reference,3,3
+ex_008,ambiguous,no_reference,3,3
+ex_009,ambiguous,no_reference,2,2
+ex_010,ambiguous,no_reference,5,5
+ex_011,hallucination_prone,no_reference,2,2
+ex_012,hallucination_prone,no_reference,2,2
+ex_013,hallucination_prone,no_reference,2,2
+ex_014,hallucination_prone,no_reference,2,2
+ex_015,hallucination_prone,no_reference,3,3
+ex_016,hallucination_prone,no_reference,2,2
+ex_017,hallucination_prone,no_reference,5,5
+ex_018,hallucination_prone,no_reference,5,5
+ex_019,hallucination_prone,no_reference,5,5
+ex_020,hallucination_prone,no_reference,5,5
+ex_021,noisy_input,no_reference,4,4
+ex_022,noisy_input,no_reference,5,5
+ex_023,noisy_input,no_reference,2,2
+ex_024,noisy_input,no_reference,2,2
+ex_025,noisy_input,no_reference,5,5
+ex_026,noisy_input,no_reference,1,1
+ex_027,noisy_input,no_reference,2,2
+ex_028,noisy_input,no_reference,4,4
+ex_029,noisy_input,no_reference,5,5
+ex_030,noisy_input,no_reference,1,1
+ex_031,negation_quantifier,no_reference,5,5
+ex_032,negation_quantifier,no_reference,1,1
+ex_033,negation_quantifier,no_reference,1,1
+ex_034,negation_quantifier,no_reference,5,5
+ex_035,negation_quantifier,no_reference,4,4
+ex_036,negation_quantifier,no_reference,5,5
+ex_037,negation_quantifier,no_reference,4,4
+ex_038,negation_quantifier,no_reference,2,2
+ex_039,negation_quantifier,no_reference,5,5
+ex_040,negation_quantifier,no_reference,2,2
+ex_041,long_complex,no_reference,4,4
+ex_042,long_complex,no_reference,3,3
+ex_043,long_complex,no_reference,3,3
+ex_044,long_complex,no_reference,4,4
+ex_045,long_complex,no_reference,3,3
+ex_046,long_complex,no_reference,4,4
+ex_047,long_complex,no_reference,2,2
+ex_048,long_complex,no_reference,2,2
+ex_049,long_complex,no_reference,2,2
+ex_050,long_complex,no_reference,3,3
+ex_001,ambiguous,verbose_expert,3,3
+ex_002,ambiguous,verbose_expert,2,2
+ex_003,ambiguous,verbose_expert,4,4
+ex_004,ambiguous,verbose_expert,3,3
+ex_005,ambiguous,verbose_expert,4,4
+ex_006,ambiguous,verbose_expert,4,4
+ex_007,ambiguous,verbose_expert,2,2
+ex_008,ambiguous,verbose_expert,3,3
+ex_009,ambiguous,verbose_expert,2,2
+ex_010,ambiguous,verbose_expert,4,4
+ex_011,hallucination_prone,verbose_expert,2,2
+ex_012,hallucination_prone,verbose_expert,2,2
+ex_013,hallucination_prone,verbose_expert,2,2
+ex_014,hallucination_prone,verbose_expert,2,2
+ex_015,hallucination_prone,verbose_expert,3,3
+ex_016,hallucination_prone,verbose_expert,2,2
+ex_017,hallucination_prone,verbose_expert,4,4
+ex_018,hallucination_prone,verbose_expert,4,4
+ex_019,hallucination_prone,verbose_expert,4,4
+ex_020,hallucination_prone,verbose_expert,4,4
+ex_021,noisy_input,verbose_expert,3,3
+ex_022,noisy_input,verbose_expert,3,3
+ex_023,noisy_input,verbose_expert,2,2
+ex_024,noisy_input,verbose_expert,2,2
+ex_025,noisy_input,verbose_expert,4,4
+ex_026,noisy_input,verbose_expert,1,1
+ex_027,noisy_input,verbose_expert,2,2
+ex_028,noisy_input,verbose_expert,3,3
+ex_029,noisy_input,verbose_expert,4,4
+ex_030,noisy_input,verbose_expert,1,1
+ex_031,negation_quantifier,verbose_expert,4,4
+ex_032,negation_quantifier,verbose_expert,1,1
+ex_033,negation_quantifier,verbose_expert,1,1
+ex_034,negation_quantifier,verbose_expert,4,4
+ex_035,negation_quantifier,verbose_expert,4,4
+ex_036,negation_quantifier,verbose_expert,4,4
+ex_037,negation_quantifier,verbose_expert,3,3
+ex_038,negation_quantifier,verbose_expert,2,2
+ex_039,negation_quantifier,verbose_expert,4,4
+ex_040,negation_quantifier,verbose_expert,2,2
+ex_041,long_complex,verbose_expert,4,4
+ex_042,long_complex,verbose_expert,3,3
+ex_043,long_complex,verbose_expert,3,3
+ex_044,long_complex,verbose_expert,4,4
+ex_045,long_complex,verbose_expert,3,3
+ex_046,long_complex,verbose_expert,4,4
+ex_047,long_complex,verbose_expert,2,2
+ex_048,long_complex,verbose_expert,2,2
+ex_049,long_complex,verbose_expert,2,2
+ex_050,long_complex,verbose_expert,3,3
+ex_001,ambiguous,minimal,4,"Score: 4
+
+**Reasoning:**
+The translation is accurate and conveys the intended meaning well. The use of ""अनुकूलन"" (adaptations) is technically correct in a biological/scientific context. The reference translation uses ""अनुकूलता"" (suitability/adaptability), which is also acceptable but slightly less precise than the original's ""adaptations."" The Hindi sentence is grammatically sound and flows naturally."
+ex_002,ambiguous,minimal,2,"Score: 2
+
+**Reasoning:**
+*   **Accuracy:** The translation is partially inaccurate. ""Did Not Finish"" (DNF) is a technical term in sports; the reference translation incorrectly translates it as ""could not complete the race"" (which is correct) but then says they ""achieved the same position"" (एक ही स्थान प्राप्त किया), which is factually wrong. DNF means they did not finish, not that they tied for a position.
+*   **Fluency:** The Hindi in the reference is grammatically awkward (""उसका पहला स्लैलम था"" instead of ""उसकी पहली स्पर्धा स्लैलम थी"").
+*   **Comparison:** The provided HI (Human/Model translation) is actually better than the REF (Reference) because it correctly identifies that the result was the same (DNF), whereas the REF implies they all tied for a specific rank."
+ex_003,ambiguous,minimal,4,"Score: 4
+
+**Reasoning:**
+The translation is accurate and conveys the meaning well. However, the reference translation (REF) is slightly more natural in Hindi. Specifically:
+*   ""दुर्घटना की जगह के पास"" (near the place of the accident) sounds more idiomatic than ""जहां दुर्घटना हुई थी"" (where the accident happened).
+*   ""सड़क पार करने का इंतज़ार कर रहे बच्चे थे"" flows better than ""वहां रास्ता पार करने के लिए बच्चे इंतजार कर रहे थे"".
+*   The use of ""बताया"" (told/reported) instead of ""कहा"" (said) is often preferred in journalistic contexts for this type of statement."
+ex_004,ambiguous,minimal,4,"Score: 4
+
+**Reasoning:**
+*   **Accuracy:** The translation is mostly accurate, but there are minor issues. ""नियोजन निर्माता"" is not the standard term for ""executive producer"" in Hindi media; ""एग्जीक्यूटिव प्रोड्यूसर"" (transliterated) or ""कार्यकारी निर्माता"" is preferred.
+*   **Fluency:** The phrase ""लाखों डॉलर के रूप में अधिकार शुल्क"" sounds slightly unnatural compared to the reference's ""लाखों-करोड़ों डॉलर की रॉयल्टी.""
+*   **Comparison:** The reference provided is more natural and idiomatic in a professional/journalistic context. The original translation is understandable but feels a bit literal."
+ex_005,ambiguous,minimal,4,"Score: 4
+
+**Reasoning:**
+The translation is accurate and conveys the meaning well. The use of ""चुनिंदा"" (selected/some) for ""some"" and ""फ़र्म"" (firm) for ""firms"" makes the Hindi sound more natural and professional compared to the provided HI version. It captures the nuance of the original English sentence effectively."
+ex_006,ambiguous,minimal,4,"Score: 4
+
+**Reasoning:**
+*   **Accuracy:** The translation captures the meaning well.
+*   **Fluency:** The Hindi translation provided in the prompt is grammatically correct and flows naturally.
+*   **Comparison with REF:** The provided translation is slightly more formal and precise than the reference. The reference uses ""किया करते थे"" (habitual past), which is also acceptable, but the prompt's version (""करता था"") is a more direct translation of the singular subject ""It."" Both are good, but the prompt's version is slightly more polished."
+ex_007,ambiguous,minimal,3,"Score: 3
+
+**Reasoning:**
+*   **Accuracy:** The translation ""जानवरों से ढोकर लाया गया था"" (brought by animals) in the REF is inaccurate. ""ढोकर"" implies carrying/transporting like cargo, whereas ""brought up"" means ""raised/reared."" The HI translation provided (""जानवरों द्वारा पाले जाने"") is much more accurate in meaning.
+*   **Fluency:** The HI translation is grammatically sound and captures the intended meaning of the original English sentence well.
+*   **Comparison:** The REF is poor because it misinterprets ""brought up"" (reared) as ""brought"" (transported). The HI translation is superior."
+ex_008,ambiguous,minimal,4,"Score: 4
+
+**Reasoning:**
+The translation is accurate and conveys the meaning well. However, the reference translation is slightly more natural in its phrasing:
+*   ""अतिरिक्त क्वालिफ़ायर"" (using the transliterated technical term) is often preferred in this context over ""अतिरिक्त विशेषक"" (which is grammatically correct but less commonly used in culinary/linguistic discussions).
+*   ""मुख्य जावा द्वीप"" flows better than ""मुख्य द्वीप जावा"".
+*   ""हिस्सों"" is slightly more natural than ""भागों"" in this specific context.
+
+Overall, your translation is very good and grammatically sound."
+ex_009,ambiguous,minimal,2,"**Score: 2/5**
+
+**Reasoning:**
+*   **Accuracy:** The translation is quite poor and difficult to understand. The phrase ""छोटे गांवों के शहरों से अलग हो जाते हैं"" (separate from small village cities) does not accurately convey the meaning of ""leave small country towns.""
+*   **Grammar/Flow:** The sentence structure is awkward and unnatural in Hindi. The phrase ""दूसरों द्वारा पार कर लिए जाते हैं"" (are passed by others) is a literal translation that sounds unnatural in this context.
+*   **Comparison to REF:** The reference provided is also grammatically weak and lacks clarity, but the original translation provided by the user is slightly more confusing due to the word choice (""अलग हो जाते हैं"" instead of ""निकल जाते हैं""). 
+
+**Suggested Improvement:**
+""हर सुबह, लोग काम पर जाने के लिए अपनी कारों में छोटे कस्बों से निकलते हैं और उन्हें वे लोग पार करते हैं जिनका कार्यस्थल वही कस्बा है जिसे वे अभी छोड़कर आए हैं।"""
+ex_010,ambiguous,minimal,4,"Score: 4
+
+**Reasoning:**
+The translation provided in the HI field is grammatically correct and accurate in terms of meaning. However, the REF (Reference) translation is more natural and idiomatic in Hindi. The HI translation is a bit literal, whereas the REF captures the flow of sports journalism better. It is a very good translation, but slightly less polished than the reference."
+ex_011,hallucination_prone,minimal,3,"Score: 3
+
+**Reasoning:**
+*   **Accuracy:** The translation is understandable, but there are significant errors in terminology and tone.
+*   **Terminology:** ""सुरंगकार"" (surangkar) literally means ""tunnel worker/miner,"" which is incorrect for an engraver. The reference translation uses ""उकेरक"" (ukerak), which is the correct term for an engraver.
+*   **Grammar/Tone:** The use of ""उसने"" (usne - informal/singular) is inappropriate for a biographical context; ""उन्होंने"" (unhone - respectful) should be used. ""स्वीडिश पोस्ट ऑफिस"" is acceptable, but ""स्वीडिश डाक घर"" (as used in the reference) is more natural in formal Hindi."
+ex_012,hallucination_prone,minimal,4,"Score: 4
+
+**Reasoning:**
+*   **Accuracy:** The translation is factually correct and captures the meaning well.
+*   **Fluency:** The reference (REF) uses more natural phrasing (""2017 के अंत में"" instead of ""देर से 2017 में"") and uses the respectful plural verb form (""दिखाई दिए"" instead of ""दिखाई दिया""), which is standard in Hindi when referring to a person.
+*   **Improvement:** The provided translation is understandable but sounds slightly robotic compared to the reference."
+ex_013,hallucination_prone,minimal,3,"Score: 3
+
+**Reasoning:**
+*   **Accuracy:** The translation contains a significant factual error. The original text says the Ninth Ward ""saw flooding as high as 20 feet,"" but the Hindi translation says ""पानी 20 फीट तक बरसा"" (water rained up to 20 feet), which is incorrect.
+*   **Fluency:** The phrasing ""बांध के ऊपर बह जाने के कारण"" is a literal translation of ""levee was overtopped,"" which sounds slightly unnatural in Hindi. A more natural phrasing would be ""बांध के ऊपर से पानी बहने के कारण"" (due to water flowing over the levee).
+*   **Comparison:** The reference translation provided is also somewhat awkward (""तूफ़ान कैटरीना के दौरान 20 फ़ीट तक ऊँचा देखा गया था"" is grammatically strange), but the user's provided Hindi translation fails to accurately convey the meaning of ""flooding."""
+ex_014,hallucination_prone,minimal,4,"Score: 4
+
+**Reasoning:**
+*   **Accuracy:** The provided Hindi translation (HI) contains a significant error: it translates ""engraving banknotes"" as ""नोटों के सिक्के बनाने"" (making coins of notes), which is factually incorrect and contradictory. The reference translation (REF) correctly uses ""उकेरने"" (engraving).
+*   **Fluency:** The REF is more professional and grammatically accurate. The HI version sounds slightly unnatural due to the ""sikke"" (coins) error.
+*   **Improvement:** The REF is excellent, though it could be slightly more concise. The HI version fails primarily due to the mistranslation of ""engraving banknotes."""
+ex_015,hallucination_prone,minimal,4,"Score: 4
+
+**Reasoning:**
+The translation is accurate and conveys the meaning well. However, it loses a point because ""United States of America"" (संयुक्त राज्य अमेरिका) is a standard term in Hindi, but the reference translation uses a transliteration (""यूनाइटेड स्टेट्स ऑफ़ अमेरिका""), which is less formal/standard in written Hindi. Additionally, the original Hindi translation provided in the prompt (""टेस्ला ने... चले गए"") has a slight grammatical inconsistency (the subject ""टेस्ला"" is marked with ""ने"", but the verb ""चले गए"" is intransitive, making the sentence structure awkward). The reference translation is better, but still uses an unnecessary transliteration."
+ex_016,hallucination_prone,minimal,3,"Score: 3
+
+**Reasoning:**
+*   **Accuracy:** The translation is grammatically correct but conveys a slightly different meaning than the original. The phrase ""don't extend to"" in the source text implies that the policies do not *cover* or *apply to* that period, whereas the Hindi translation ""नहीं फैलती हैं"" (do not spread) is a literal and awkward translation of ""extend.""
+*   **Fluency:** The Hindi translation sounds unnatural. The word ""फैलती"" is inappropriate in this context.
+*   **Comparison with REF:** The reference translation is much more natural and accurate. It correctly uses ""नहीं बढ़ाई जाती हैं"" (are not extended) or implies the scope of the policy, which fits the context of insurance/cancellation policies much better."
+ex_017,hallucination_prone,minimal,1,"Score(1-5): 5
+
+**Reasoning:** The translation is accurate, natural, and captures the meaning of the original English sentence perfectly. The reference provided is also excellent, but your translation is equally correct and grammatically sound."
+ex_018,hallucination_prone,minimal,5,"Score: 5
+
+**Reasoning:** The reference translation (REF) is excellent. It corrects the minor grammatical awkwardness of the HI version (e.g., using ""प्रथम"" instead of ""पहले"" for a formal historical context, and ""संप्रभुता"" for ""sovereignty,"" which is more accurate than ""शासन का अधिकार""). The flow is natural and historically precise."
+ex_019,hallucination_prone,minimal,1,"Score(1-5): 4
+
+**Reasoning:** The translation is accurate and conveys the meaning well. However, the reference (REF) uses slightly more natural phrasing (""की मदद से"" instead of ""मारकर"" and ""पारी"" instead of ""इनिंग्स""), which makes the reference sound more professional/journalistic."
+ex_020,hallucination_prone,minimal,4,"Score: 4
+
+**Reasoning:**
+The translation is accurate and conveys the meaning well. The reference (REF) is slightly more natural in its phrasing (""किराया... लगता है"" vs ""मूल्य... है""), but the provided Hindi translation is grammatically correct and perfectly understandable."
+ex_021,noisy_input,minimal,4,"Score: 4
+
+**Reasoning:**
+The translation provided in the HI section is grammatically correct and conveys the meaning well. However, the REF (Reference) version is slightly more natural and idiomatic in Hindi. Specifically:
+*   ""शीर्ष शिकारी"" (Apex predator) is accurate, but ""सबसे बड़ा शिकारी"" (biggest predator) is often used in common parlance.
+*   ""कुछ भी डरता नहीं था"" is slightly awkward; ""उसे किसी का भय नहीं था"" (it had no fear of anyone) sounds more professional and fluent.
+*   The use of ""सिवाए"" (except) in the HI version is correct, but the sentence structure in the REF version flows better."
+ex_022,noisy_input,minimal,4,"Score: 4
+
+**Reasoning:**
+The translation is accurate and conveys the intended meaning well. The use of ""पोतविहार"" (potvihar) for ""cruise"" is technically correct in formal Hindi, though ""क्रूज़"" (transliterated) is more commonly used in everyday language. The structure is natural, and the parenthetical note is handled correctly. It is a very high-quality translation."
+ex_023,noisy_input,minimal,4,"Score: 4
+
+**Reasoning:**
+*   **Accuracy:** The translation captures the core meaning of the source text.
+*   **Fluency:** The Hindi translation provided by the user is grammatically correct but slightly stiff. The reference translation is more natural and flows better in a professional/academic context.
+*   **Comparison:** The user's translation uses ""के कारण बना"" (became the cause of), which is a bit awkward compared to the reference's ""को बढ़ावा दिया है"" (has promoted/led to), which better reflects the nuance of ""has led to."" However, the user's translation is still accurate and understandable."
+ex_024,noisy_input,minimal,1,"Score(1-5): 3
+
+**Reasoning:**
+*   **Accuracy:** The translation conveys the general meaning, but it uses ""t0p"" (with a zero) instead of the Hindi word for top (शीर्ष/ऊपर).
+*   **Vocabulary:** ""पवित्र स्थान"" is a literal translation of ""sanctuary,"" but ""गर्भगृह"" (as used in the reference) is more contextually accurate for a religious sanctuary.
+*   **Grammar:** The sentence structure is acceptable, but the inclusion of the English word ""t0p"" makes it look like an incomplete or informal translation."
+ex_025,noisy_input,minimal,4,"Score: 4
+
+**Reasoning:**
+*   **Accuracy:** The translation is accurate and captures the meaning well.
+*   **Fluency:** The reference translation (""इसलिए, यह माना जा रहा है कि..."") sounds slightly more natural and formal in a scholarly or analytical context compared to the provided translation (""तो ऐसा लगता है कि..."").
+*   **Improvement:** The provided translation is grammatically correct and perfectly acceptable for general use, but the reference translation uses a more sophisticated structure (""माना जा रहा है"" vs ""ऐसा लगता है"") which fits the context of analyzing historical or technical notations better."
+ex_026,noisy_input,minimal,1,"Score: 1
+
+**Reasoning:**
+The translation provided in the HI field is highly inaccurate and nonsensical.
+1. **""तख़ता-बराबर लड़ाई""**: This is a literal and incorrect translation of ""riot gear."" Riot gear refers to protective equipment (दंगा-रोधी उपकरण), not a ""board-level fight.""
+2. **""बरामदा""**: This translates to ""veranda/porch,"" whereas ""yard"" in a prison context refers to an ""अहाता"" (courtyard/enclosure).
+3. **""बुरी तरह से घिर गए""**: This translates to ""got surrounded badly,"" which implies the officers were the ones trapped, whereas the original text says the officers cornered the inmates.
+4. **Overall meaning**: The Hindi translation completely reverses the meaning of the sentence and uses incorrect terminology. The REF (Reference) provided is the correct translation."
+ex_027,noisy_input,minimal,3,"**Score: 3/5**
+
+**Reasoning:**
+*   **Accuracy:** The translation captures the general meaning, but ""स्थान"" (places) is a poor translation for ""occupations"" (which should be ""व्यवसाय"" or ""पेशा"").
+*   **Fluency:** The phrase ""सबसे अधिक उद्देश्यपूर्ण"" is an unnatural translation for ""most ambitious."" ""महत्त्वाकांक्षी"" (as used in the reference) is the correct term for ""ambitious.""
+*   **Grammar:** The sentence structure is understandable but lacks the professional flow of the reference. The reference provided is much more accurate and idiomatic."
+ex_028,noisy_input,minimal,4,"Score: 4
+
+**Reasoning:**
+*   **Accuracy:** The translation is mostly accurate, but there is a significant error in the animal name. The source text says ""wolves,"" but the Hindi translation says ""लोमड़ियों"" (foxes). The reference correctly uses ""भेड़ियों"" (wolves).
+*   **Fluency:** The Hindi translation is grammatically correct and flows well.
+*   **Terminology:** Using ""गज"" (yards) is a standard translation, though ""यार्ड्स"" (transliterated) is also acceptable in modern contexts. The reference is slightly more natural in its phrasing, but the provided translation is very clear."
+ex_029,noisy_input,minimal,4,"Score: 4
+
+**Reasoning:**
+*   **Accuracy:** The translation is accurate in terms of meaning.
+*   **Fluency:** The Hindi sentence is grammatically correct and flows well.
+*   **Comparison with REF:** The REF uses ""इसकी"" (Its) and ""प्रभावित किया"" (affected - past tense), which aligns more precisely with the English source ""affected"" (past tense). Your version uses ""प्रभाव डालती है"" (affects - present tense). If the intent is to reflect the past tense of the original English sentence, the REF is slightly more accurate, but your version is still very natural."
+ex_030,noisy_input,minimal,2,"**Score: 2**
+
+**Reasoning:**
+*   **Translation Accuracy:** The Hindi translation is quite poor. ""Eighty percent"" was incorrectly translated as ""अठ्ठीस"" (38) instead of ""अस्सी"" (80).
+*   **Contextual Errors:** ""Central American countries"" was translated as ""अमेरिका के केंद्रीय देशों"" (Central countries of America), which is geographically ambiguous.
+*   **Meaning Distortion:** The phrase ""we treat you"" was translated as ""हम आपका सम्मान करते हैं"" (we respect you), whereas in the context of trade/policy, it likely refers to ""treating"" (handling/dealing with) the countries, which the reference translation correctly identifies as ""हम आपका इलाज करते हैं"" (though ""इलाज"" is also a bit literal, it is closer to the intended meaning of 'treatment' than 'respect').
+*   **Grammar:** The sentence structure in Hindi is awkward and does not flow naturally."
+ex_031,negation_quantifier,minimal,4,"Score: 4
+
+**Reasoning:**
+The translation is accurate and conveys the intended meaning well. However, the reference (REF) uses more natural phrasing (""रहने के लिए काफ़ी सुरक्षित"" vs ""बहुत सुरक्षित स्थान है"") and a more idiomatic way of expressing ""easy to navigate"" (""आसानी से नेविगेट कर सकते हैं"" vs ""बहुत आसानी से घूमा जा सकता है""). The provided translation is grammatically correct but slightly less fluent than the reference."
+ex_032,negation_quantifier,minimal,2,"**Score: 2**
+
+**Reasoning:**
+*   **Mistranslation:** The Hindi translation incorrectly translates ""sharpener"" as ""नुकीले पतलून"" (sharp trousers/pants), which makes no sense in this context. A ""sharpener"" (pencil sharpener) is a tool, not a piece of clothing.
+*   **Grammar/Flow:** The structure of the Hindi sentence is awkward.
+*   **Comparison:** The REF (Reference) provided is much more accurate and natural, correctly identifying ""sharpener"" as a tool and capturing the intended meaning of the English sentence."
+ex_033,negation_quantifier,minimal,2,"Score: 2
+
+**Reasoning:**
+The translation contains significant factual and terminological errors:
+1. **Entity Error:** The source text mentions ""Israel,"" but the Hindi translation incorrectly uses ""ईरान"" (Iran).
+2. **Terminology Error:** ""PA"" stands for the Palestinian Authority. The translation uses ""पैलेस्टाइन अधिकार परिषद"" (Palestine Rights Council), which is not the standard or accurate term for the Palestinian Authority (फिलिस्तीनी प्राधिकरण).
+3. **Contextual Error:** The phrase ""ongoing military presence"" is translated as ""वर्तमान सैन्य स्थिति"" (current military situation) in the reference, but the Hindi translation uses ""लगातार सैन्य उपस्थिति"" (continuous military presence). While the latter is closer to the English, the overall sentence structure in the Hindi translation is awkward and fails to convey the context of the agreement effectively. 
+
+The reference provided is much more accurate and natural than the Hindi translation provided in the prompt."
+ex_034,negation_quantifier,minimal,4,"Score: 4
+
+**Reasoning:**
+The translation is accurate and conveys the meaning well. However, the reference (REF) uses a slightly more natural phrasing for ""cave entrances"" (""गुफाओं में घुसने की जगह"" vs ""गुफा प्रवेश द्वार""). The provided Hindi (HI) is grammatically correct and formal, but the reference feels slightly more conversational. Both are acceptable, but the reference is slightly more idiomatic."
+ex_035,negation_quantifier,minimal,4,"Score: 4
+
+**Reasoning:**
+The translation is accurate and conveys the intended meaning well. However, the reference (REF) provided is slightly more natural and concise in Hindi. The original translation (HI) is grammatically correct but slightly wordy (""अपने आसपास कोई सेल फोन कवरेज न होने वाले"" is a bit clunky compared to ""सेल फ़ोन कवरेज नहीं होने से""). It is a very good translation, just slightly less polished than the reference."
+ex_036,negation_quantifier,minimal,4,"Score: 4
+
+**Reasoning:**
+The translation provided (HI) is accurate and natural. It conveys the meaning correctly. The reference (REF) is also grammatically correct but slightly changes the sentence structure by turning the second clause into a participle phrase (""यह कहते हुए...""). Both are good, but the provided HI is a more direct and standard translation of the original English structure."
+ex_037,negation_quantifier,minimal,4,"Score: 4
+
+**Reasoning:**
+The translation provided in the ""HI"" section is understandable but slightly unnatural in its phrasing. 
+*   ""संशय करते हैं"" is grammatically acceptable but ""संदेह है"" (as used in the REF) is more idiomatic in this context.
+*   ""जिसमें उल्लेख है कि"" is a literal translation of ""noting that,"" whereas ""यह देखते हुए कि"" (as used in the REF) captures the meaning of ""noting"" (in the sense of observing/pointing out) much better in Hindi.
+*   The REF is more fluent and accurately reflects the professional tone of the original English sentence."
+ex_038,negation_quantifier,minimal,3,"Score: 3
+
+**Reasoning:**
+*   **Translation Accuracy:** The Hindi translation provided in the prompt is somewhat awkward and inaccurate in its interpretation of the source text. Specifically, it translates ""abuse of the proportion described"" as ""दुर्भाग्यपूर्ण अपराध के अनुपात"" (proportion of the unfortunate crime), which misses the meaning of ""abuse"" as a noun (sexual abuse) and ""proportion"" as a descriptor of the scale of the abuse.
+*   **Comparison to REF:** The reference (REF) translation is much more natural and accurate. It correctly identifies ""survivors"" (बचे लोगों) and understands the context of the abuse better than the prompt's Hindi version.
+*   **Grammar/Flow:** The prompt's Hindi version is grammatically clunky and uses overly literal translations that obscure the intended meaning of the original English sentence."
+ex_039,negation_quantifier,minimal,1,"Score(1-5): 4
+
+**Reasoning:** The translation is accurate and conveys the intended meaning perfectly. The slight deduction is because the reference uses ""कोई"" (any/a) to emphasize the negation (""not a treasure map""), which sounds more natural in Hindi than the direct translation provided in the HI column. However, both are grammatically correct."
+ex_040,negation_quantifier,minimal,3,"Score: 3
+
+**Reasoning:**
+*   **Accuracy:** The translation captures the general meaning, but the phrase ""अपने आप को ध्यान में रखें"" (keep yourself in mind) is an unnatural and incorrect translation of the idiom ""keep your wits about you"" (which means to stay alert/vigilant). A better translation would be ""सतर्क रहें"" (stay alert).
+*   **Fluency:** The term ""अधिकांश हैं"" (are the majority) at the end of the sentence is grammatically awkward in Hindi. It would be more natural to say ""यहाँ आम हैं"" (are common here).
+*   **Comparison to REF:** The reference translation is also slightly flawed (using English loan words like ""स्टीप ग्रेड्‍स""), but it captures the warning tone better than the provided Hindi translation."
+ex_041,long_complex,minimal,4,"Score: 4
+
+**Reasoning:**
+*   **Accuracy:** The translation is very accurate and captures the nuance of the original English text well.
+*   **Fluency:** The Hindi phrasing is natural and grammatically sound.
+*   **Comparison:** The provided REF (Reference) is slightly more polished and formal than the HI (Hindi) version. Specifically, the use of ""पुराने साम्राज्य"" (Old Kingdom) is more standard in historical contexts than ""पुराने राजवंश"" (Old Dynasty), and ""उत्कृष्टता"" (excellence) is a more precise translation for ""excellence"" than ""शिखरता"" (which leans more towards 'peak' or 'pinnacle'). 
+
+The HI version is good, but the REF version is excellent."
+ex_042,long_complex,minimal,4,"Score: 4
+
+**Reasoning:**
+The translation is accurate and conveys the meaning well. However, there are minor areas for improvement:
+*   **Grammar/Flow:** The phrase ""चीन के प्रत्येक चरण या शक्ति में रहे प्रत्येक परिवार"" is slightly clunky. The reference (REF) version ""चीन का प्रत्येक चरण या प्रत्येक परिवार जो सत्ता में था"" flows much more naturally in Hindi.
+*   **Vocabulary:** Using ""अनूठा"" (as in the REF) is slightly more idiomatic for ""unique"" in this context than ""अद्वितीय,"" though both are correct. 
+
+Overall, it is a very good translation that captures the essence of the original English sentence."
+ex_043,long_complex,minimal,4,"Score: 4
+
+**Reasoning:**
+The translation is accurate and conveys the meaning well. However, the reference (REF) provided is slightly more natural in its phrasing. Specifically:
+*   ""अपने चरम तेजी पर उनके समय में"" is a bit clunky for ""in their heyday."" The REF's ""चूँकि उनकी शुरुआती दिनों में"" or a phrase like ""अपने सुनहरे दौर में"" would sound more idiomatic.
+*   The rest of the sentence is grammatically sound and clear."
+ex_044,long_complex,minimal,4,"Score: 4
+
+**Reasoning:**
+The translation is accurate and conveys the intended meaning well. However, there are a few minor grammatical and stylistic improvements that could make it sound more natural in Hindi:
+
+1.  **""ऐतिहासिकों"" vs ""इतिहासकारों"":** While ""ऐतिहासिकों"" is technically related to history, ""इतिहासकारों"" (historians) is the standard and correct term for people who study history.
+2.  **""मामलेा"":** The reference text has a typo (""मामलेा"" instead of ""मामलों"").
+3.  **Flow:** The structure in the reference text is slightly more fluid. Using ""इतिहासकारों"" and ensuring correct pluralization makes the sentence sound more professional.
+
+**Suggested Improvement:**
+""इतिहासकारों ने एफबीआई की पिछली नीतियों की आलोचना की है, जिनमें एजेंसी की सफलता दर बढ़ाने के इरादे से उन मामलों पर संसाधन केंद्रित किए गए थे जिन्हें हल करना आसान था, विशेष रूप से कार चोरी के मामले।"""
+ex_045,long_complex,minimal,4,"Score: 4
+
+**Reasoning:**
+The translation is accurate and conveys the meaning well. However, it loses a bit of natural flow compared to the reference. Specifically:
+*   ""रविवार के अंत में"" (At the end of Sunday) is a literal translation of ""Late on Sunday,"" whereas the reference ""रविवार को देर शाम"" (Late evening on Sunday) sounds much more natural in Hindi news reporting.
+*   The structure ""यूनाइटेड स्टेट्स के राष्ट्रपति... द्वारा... घोषणा में कहा गया है"" is slightly passive and clunky compared to the reference's more direct approach."
+ex_046,long_complex,minimal,4,"Score: 4
+
+**Reasoning:**
+The translation provided in the ""HI"" field is grammatically correct, natural, and captures the meaning of the English source text accurately. It flows better than the ""REF"" (Reference) translation, which contains a slight typo (""व्यवस्या"" instead of ""व्यावसायिक"") and is phrased a bit more awkwardly. The score of 4 is given because it is an excellent translation, though ""समर्ना"" (Smyrna) is more commonly transliterated as ""स्मिर्ना"" in Hindi historical contexts."
+ex_047,long_complex,minimal,2,"Score: 2
+
+**Reasoning:**
+*   **Accuracy:** The Hindi translation (HI) contains significant errors. ""राष्ट्र के भरोसे"" (relying on the nation) is an incorrect translation of ""across the nation."" ""विस्तृत परिसर"" (vast campus/premises) is an incorrect translation of ""vast variety.""
+*   **Fluency:** The sentence structure in the HI version is awkward and does not sound natural in Hindi.
+*   **Comparison:** The Reference (REF) provided is much more accurate, natural, and captures the intended meaning of the original English sentence perfectly."
+ex_048,long_complex,minimal,3,"Score: 3
+
+**Reasoning:**
+*   **Accuracy:** The translation captures the general meaning, but there are some inaccuracies. ""Easy reach"" is translated as ""आसानी से पहुंचे में"" (grammatically awkward), and ""splendours"" is translated as ""शानदार वर्णन"" (glorious description), whereas the original text implies the *splendours* of the town were described.
+*   **Fluency:** The Hindi sentence structure is slightly clunky. The phrase ""जिसे विदेशियों के लिए... प्रसिद्ध कर दिया गया"" sounds a bit unnatural compared to the reference.
+*   **Comparison to Reference:** The reference provided is more accurate in terms of flow and vocabulary (e.g., ""उत्तर की ओर और पास ही में"" is a better translation for ""To the north and within easy reach""). The user's translation is understandable but lacks the polish of the reference."
+ex_049,long_complex,minimal,4,"Score: 4
+
+**Reasoning:**
+The translation is accurate in terms of meaning, but it feels slightly unnatural in Hindi. 
+*   **Strengths:** It correctly conveys the core message and translates the technical terms (visa, passport control) appropriately.
+*   **Weaknesses:** The phrasing ""पासपोर्ट नियंत्रण के कई बार जाने का मतलब होता है"" is grammatically awkward. The reference translation (""पासपोर्ट कंट्रोल की प्रक्रिया से गुज़रना है"") is much more natural and idiomatic in Hindi. The use of ""आपेक्षिक"" is technically correct, but ""अपेक्षाकृत"" (used in the reference) is the more standard term in this context."
+ex_050,long_complex,minimal,4,"Score: 4/5
+
+**Reasoning:**
+The translation is accurate in terms of meaning. However, in the context of film awards (like the Oscars), terms like ""Best Picture,"" ""Director,"" ""Cinematography,"" and ""Screenplay"" are widely recognized and used as loanwords in Hindi media. 
+
+*   **Why the REF is better:** The reference translation uses industry-standard terminology (e.g., ""सिनेमेटोग्राफ़ी"" instead of ""चित्रकला,"" which is technically 'painting'). 
+*   **Why your translation is good:** It is grammatically correct and uses pure Hindi equivalents, which is excellent for formal writing, though it sounds slightly less natural in the context of modern entertainment journalism."

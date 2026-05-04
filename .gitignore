@@ -1,0 +1,46 @@
+# LaTeX temporary files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.dvi
+*.ps
+*.d
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+*.egg-info/
+.ipynb_checkpoints/
+.jupyter_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+.~*
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data processing
+*.tmp
+*.temp
